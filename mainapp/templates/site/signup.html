@@ -1,0 +1,30 @@
+{% extends 'site/index.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/neo.css' %} ">
+</head>
+<body>
+
+    <div class="box">  
+        <div class="logo"></div>
+        <form action="#" method="post"></br></br>
+            <label for="username">Username</label></br>
+            <input type="text" name="uname" id="uname" placeholder="Enter Username" class="input-box">
+            </br></br>
+            <label for="username">Password</label></br>
+            <input type="password" name="uname" id="uname" placeholder="Enter Password" class="input-box"></br>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+          </div>
+    <footer class="py-5 navbar-custom"  > 
+        <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; TESDA-DUMINGAG 2022</p></div>
+    </footer>
+    {% endblock %}
+    
+</body>
+</html>
+
+
